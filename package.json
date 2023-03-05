@@ -1,0 +1,43 @@
+{
+  "name": "FASHION_API_VERSION",
+  "version": "1.0.0",
+  "description": "Restful API for fashion",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-pg-simple": "^8.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "make-runnable": "^1.4.1",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "psql": "^0.0.1",
+    "stripe": "^11.11.0",
+    "swagger-client": "^3.18.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-parser": "^10.0.3",
+    "swagger-ui": "^4.15.5",
+    "swagger-ui-dist": "^4.15.5",
+    "swagger-ui-express": "^4.6.0",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
